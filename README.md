@@ -16,6 +16,9 @@ ddev launch
 ddev drush uli
 ```
 
+Next fill-up the event details:
+`ddev launch admin/event-details`
+
 Then create a basic page for extra homepage information, and tick "Promoted to front page":
 `ddev launch node/add/page`
 
