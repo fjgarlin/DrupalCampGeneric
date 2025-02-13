@@ -4,6 +4,9 @@
 
 This project is built using [event platform](https://www.drupal.org/project/event_platform) as the foundation of the site.
 
+## Local development
+We use [ddev](https://ddev.com/) for local setup.
+
 ## Set up
 
 Fork or clone this project to your local folder:
