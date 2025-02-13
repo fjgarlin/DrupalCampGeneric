@@ -11,7 +11,8 @@ Fork or clone this project:
 ddev start
 ddev composer i
 ddev drush site:install -y
-ddev drush -y en event_platform_olivero
+ddev drush -y en event_platform_olivero navigation
+ddev drush -y cex
 ddev launch
 ddev drush uli
 ```
@@ -22,10 +23,11 @@ Next fill-up the event details:
 Then create a basic page for extra homepage information, and tick "Promoted to front page":
 `ddev launch node/add/page`
 
+## Theme
+A sub-theme of Olivero was created following [olivero_sub_theme](https://github.com/mogtofu33/olivero_sub_theme).
+
 ## How this project was created
-
 In order to create this repo, the following steps were followed:
-
 
 ### Base Drupal site
 ```
@@ -43,3 +45,6 @@ ddev launch
 ddev composer require drupal/event_platform
 ddev drush -y en event_platform_olivero
 ```
+
+### Add the rest
+Then add any further customisations.

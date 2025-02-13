@@ -1,0 +1,13 @@
+diff --git a/event_platform_sessions/config/install/views.view.session_list.yml b/event_platform_sessions/config/install/views.view.session_list.yml
+index 2c257a5f609e384dd6f5e1e80090235750a48717..e9d6629587312adf7aa60d5e370a488669f6dd0d 100644
+--- a/event_platform_sessions/config/install/views.view.session_list.yml
++++ b/event_platform_sessions/config/install/views.view.session_list.yml
+@@ -533,7 +533,7 @@ display:
+     display_plugin: page
+     position: 1
+     display_options:
+-      exposed_block: false
++      exposed_block: true
+       display_extenders: {  }
+       path: sessions
+       menu:

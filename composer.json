@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^10.4",
         "drupal/core-project-message": "^10.4",
         "drupal/core-recommended": "^10.4",
@@ -37,7 +38,8 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
@@ -47,6 +49,7 @@
                 "web-root": "web/"
             }
         },
+        "patches-file": "patches/composer.patches.json",
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"

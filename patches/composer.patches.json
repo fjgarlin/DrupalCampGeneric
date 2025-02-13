@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/event_platform": {
+      "#3506379 Broken/Missing block in block layout": "patches/3506379.diff"
+    }
+  }
+}
